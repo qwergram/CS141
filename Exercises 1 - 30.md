@@ -1,4 +1,4 @@
-# Review Excercises 1.1 - 1.15
+# Review Excercises 1.1 - 1.30
 1. Hardware is the physical metal and silicon a computer is composed of and software are the instructions that tell what the hardware to do, for instance, Microsoft word is a piece of software that tells the hardware to render a word processing application on the screen.
 2. The five major hardware components of any system include: CPU, memory (RAM), storage devices (such as HDDs), Input devices (such as a keyboard), Output devices (such as a monitor) and communication devices such as NICs.
 3. CPU stands for Central Processing Unit
@@ -15,3 +15,17 @@
 14. A source program is a text file that contains all the instructions written in a high-level language such as Java (program.java) or C++ (program.cpp) or Python (program.py), however in its raw form, it cannot be understood by the CPU or Assembler.
 15. An interpreter is a concept where a single line of instruction is converted into machine language (or virtual machine language) and is executed instantly. Python is a language that uses this concept or is an “Interpreted Language.”
 16. A compiler – contrary to interpreter – is a concept where an entire program or source program is converted into machine language (or virtual machine language) and is executed after the entire program is converted. Java is a language that uses this concept or is a “Compiled Language.”
+17.	As mentioned above, the difference between a compiler and interpreter is when the code is converted to machine language. A compiler does it ahead of time, the interpreter does it as the code is being executed.
+18.	An Operating System (OS) is software that manages and runs the computer’s hardware. Popular OS’s today include Windows, Ubuntu and Linux Mint.
+19.	An OS is tasked with controlling and monitoring system activities such as recognizing keystrokes from keyboards, sending visual output to the monitor and other IO stream tasks. It also ensures that software running on the OS do not collide, it also ensures that malicious software doesn’t access sensitive information either. It also allocates memory space for programs, it also schedules tasks for the CPU, allowing the use of multiple programs and multicore/multithreaded programs.
+20.	Multiprogramming is a concept that allows multiple programs to run at the same time. Multithreading is a concept that allows a single program to execute multiple tasks at the same time. Multiprocessing or Multicore processing is the concept where a single program utilizes the multiple cores (or multiple CPUs) a computer has to offer.
+21.	Java was invented by a team led by James Gosling at Sun Microsystems, originally called Oak. It is currently owned by Oracle.
+22.	Java initially became attractive because Java programs can be run from a Web browser. Such programs are called applets. Applets employ a modern graphical interface with buttons, text fields, text areas, radio buttons, and so on, to interact with users on the Web and process their requests.
+23.	Android currently uses Java.
+24.	The Java language specification is a technical definition of the Java Programming language’s syntax and semantics.
+25.	JDK stands for Java Development Kit
+26.	IDE stands for Integrated Development Environment
+27.	NetBeans and Eclipse are IDEs or development tools.
+28.	Keywords are reserved keywords in the Java language that have syntactic meaning, such as public, private, static, and so on.
+29.	Java is case sensitive, and so are its keywords.
+30.	A comment is a note a programmer can leave in the code that will be ignored by the compiler.
