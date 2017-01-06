@@ -1,4 +1,4 @@
-# Review Excercises 1.1 - 1.30
+# Review Excercises 1.1 - 1.46
 1. Hardware is the physical metal and silicon a computer is composed of and software are the instructions that tell what the hardware to do, for instance, Microsoft word is a piece of software that tells the hardware to render a word processing application on the screen.
 2. The five major hardware components of any system include: CPU, memory (RAM), storage devices (such as HDDs), Input devices (such as a keyboard), Output devices (such as a monitor) and communication devices such as NICs.
 3. CPU stands for Central Processing Unit
