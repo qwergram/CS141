@@ -1,15 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Written by Norton Pengra. No Copyright.
+ * CS141 @ EDCC
  */
 package javaapplication1;
-
-/**
- *
- * @author norton
- */
-
 
 public class JavaApplication1 {
 
@@ -141,5 +134,41 @@ public class JavaApplication1 {
         long futurePopulation = currentPopulation + futureBirths + futureImmigrants - futureDeaths;
         System.out.println(futurePopulation);
         
+    }
+    
+    // Assignment 1.12
+    public static void AvgSpeed2() {
+        double distanceRan = 24;
+        double timeRan = 100. + (35. / 60.);
+        double kiloPerMile = 1.6;
+        
+        distanceRan *= kiloPerMile;
+        double kmPerMin = distanceRan / timeRan;
+        double kmPerHr = kmPerMin / 60.0;
+        System.out.println(kmPerHr);
+    }
+    
+    
+    
+    // Assignment 1.13 w/ helper
+    public static void AlgebraInJava() {
+        // 3.4x + 50.2y = 44.5
+        // 2.1x + .55y = 5.9
+        // solve for x and y
+        double x, y;
+        double[] answer = CramersRule(3.4, 50.2, 44.5, 2.1, .55, 5.9);
+        x = answer[0];
+        y = answer[1];
+        System.out.println(x);
+        System.out.println(y);
+    }
+    
+    private static double[] CramersRule(double constA, double constB, double resultE, double constC, double constD, double resultF) {
+        // x = ed - bf / ad - bc
+        // y = af - ec / ad - bc
+        double[] answer = new double[2];
+        answer[0] = ((resultE * constD) - (constB * resultF)) / ((constA * constD) - (constB * constC)); // x
+        answer[1] = ((constA * resultF) - (resultE * constC)) / ((constA * constD) - (constB * constC)); // y
+        return answer;
     }
 }
