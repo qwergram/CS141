@@ -29,3 +29,20 @@
 28.	Keywords are reserved keywords in the Java language that have syntactic meaning, such as public, private, static, and so on.
 29.	Java is case sensitive, and so are its keywords.
 30.	A comment is a note a programmer can leave in the code that will be ignored by the compiler.
+31.	The statement to display a string on the console is System.out.println(“text here”).
+32.	The output of the snippet is `3.5 * 4 / 2 – 2.5 is 4.5`
+33.	The Java source filename extension is .java and the Java bytecode filename extension is .class.
+34.	The input of a Java compiler is the source code.
+35.	The command to compile a Java program is javac program_name.java.
+36.	The command to run a Java program is java program_name.
+37.	The JVM is the Java Virtual Machine, which executes the Java binary in a virtual environment, thus allowing cross OS support.
+38.	Java can run on any machine, all that is required is 4MB of RAM and the JRE or Java Runtime Environment.
+39.	If a NoClassDefFoundError occurs, it means you’re calling a class constructor on a class that isn’t defined.
+40.	If a NoSuchMethodError occurs, it means you’re calling a class method that doesn’t exist.
+41.	The correct style of the left code block is on its right. 
+42.	Syntax errors (compile errors) mean you’ve written code that doesn’t follow the language’s rules. Runtime errors mean code crashes after everything is compiled and is trying to be run. Logic errors (semantic errors) are when programs execute legally without errors, but not in the way the programmer anticipates.
+43.	A syntax error example would be missing a semicolon. A runtime error example would be including a divide by 0 operation in your code. A semantic error example would be dividing integers with floats and expecting a lossless division operation.
+44.	Forgetting to put a closing quotation mark on a string would result in a syntax error.
+45.	If a program needs to read integers but at runtime the user enters strings, a runtime type error would be thrown.
+46.	If you write a program with the intention of calculating perimeters of rectangles, but the program instead calculates areas, it is a semantic error or logic error.
+
